@@ -12,10 +12,10 @@ const game = {
 
 const player = {
   name: '',
-  previousGuesses: [],
   setPlayerName: function() {
     this.name = prompt("What's your name ?", 'Enter here...');   
-  }
+  },
+  previousGuesses: [],
 }
 
 init();
@@ -65,10 +65,3 @@ function playerWins() {
 
   init();
 }
-
-
-
-
-
-
-
